@@ -1,0 +1,21 @@
+.containerButton {
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 900;
+  transition: all 0.2s;
+  background-color: rgba(0, 255, 255, 0);
+  box-shadow: none;
+  border-radius: 9px;
+}
+
+.containerButton img {
+    width: 150px;
+}
+
+.containerButton:hover {
+  transform: scale(1.1)
+}
