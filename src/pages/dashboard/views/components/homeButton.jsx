@@ -1,5 +1,5 @@
 import { Box, Button } from "@mui/material";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./homeButton.css";
 import imgEnabled from "../../../../assets/images/marioSquareImage.png";
 import imgDisabled from "../../../../assets/images/marioSquareImage2.png";
@@ -16,12 +16,22 @@ function ButtonItem(props) {
 }
 
 const HomeButton = (props) => {
-  const { ...other } = props;
-  const img = props.disabled ? imgDisabled : imgEnabled;
+  const { releaseDate, ...other } = props;
+  const [isDisabled, setIsDisabled] = useState(true);
+
+  useEffect(() => {
+    const today = new Date();
+    const release = new Date(releaseDate);
+    if (today >= release) {
+      setIsDisabled(false);
+    }
+  }, [releaseDate]);
+
+  const img = isDisabled ? imgDisabled : imgEnabled;
 
   return (
     <Box>
-      <ButtonItem img={img} {...other} disabled={props.disabled}>
+      <ButtonItem img={img} {...other} disabled={isDisabled}>
       </ButtonItem>
     </Box>
   );
