@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/valentinesDay/static/css/main.85e2bb75.css",
-    "main.js": "/valentinesDay/static/js/main.11b8f383.js",
+    "main.css": "/valentinesDay/static/css/main.574615b3.css",
+    "main.js": "/valentinesDay/static/js/main.9cab33c2.js",
     "static/js/453.72563d4c.chunk.js": "/valentinesDay/static/js/453.72563d4c.chunk.js",
     "static/media/marioSquareImage.png": "/valentinesDay/static/media/marioSquareImage.8a1e63eff2a00efedc6d.png",
     "static/media/marioSquareImage2.png": "/valentinesDay/static/media/marioSquareImage2.43049e10a1c63fa022af.png",
@@ -65,12 +65,12 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/valentinesDay/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/valentinesDay/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/valentinesDay/index.html",
-    "main.85e2bb75.css.map": "/valentinesDay/static/css/main.85e2bb75.css.map",
-    "main.11b8f383.js.map": "/valentinesDay/static/js/main.11b8f383.js.map",
+    "main.574615b3.css.map": "/valentinesDay/static/css/main.574615b3.css.map",
+    "main.9cab33c2.js.map": "/valentinesDay/static/js/main.9cab33c2.js.map",
     "453.72563d4c.chunk.js.map": "/valentinesDay/static/js/453.72563d4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85e2bb75.css",
-    "static/js/main.11b8f383.js"
+    "static/css/main.574615b3.css",
+    "static/js/main.9cab33c2.js"
   ]
 }
