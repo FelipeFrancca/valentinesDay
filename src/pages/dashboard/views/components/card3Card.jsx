@@ -1,17 +1,15 @@
 import React, { useEffect, useRef } from "react";
 import VanillaTilt from "vanilla-tilt";
 import "./cardStyles.css";
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import Swal from "sweetalert2";
-import imgsrc from "../../../../assets/images/sushi.jpg";
+import imgsrc from "../../../../assets/images/movieTheater.png";
 
 const TiltBox = ({ name, imgSrc, imgAlt }) => {
   const tiltRef = useRef(null);
   const handleVoteClick = (event) => {
     event.preventDefault();
-    Swal.fire(
-      "Uhuuul! Espero que esteja com fome, porquê você ganhou uma noite especial para comer um nhami-nhami gotoso de sushi 🍣 com seu mozão"
-    );
+    Swal.fire("Partiu assistir Divertidamente 2!? Vamo simbora mulheeeerr!!");
   };
 
   useEffect(() => {
@@ -37,17 +35,14 @@ const TiltBox = ({ name, imgSrc, imgAlt }) => {
 const App = () => {
   return (
     <Box className="containerFather">
-      <Button className="backpageButton" variant="contained">
-        <a href="./../valentinesDay">Voltar</a>
-      </Button>
       <Box className="container containerCardPresente">
-        <TiltBox
-          name="Noite do Sushi"
-          imgSrc={imgsrc}
-          imgAlt="Image não encontrada"
-        />
+          <TiltBox
+            name="Cineminha da JóJó"
+            imgSrc={imgsrc}
+            imgAlt="Image não encontrada"
+          />
+        </Box>
       </Box>
-    </Box>
   );
 };
 

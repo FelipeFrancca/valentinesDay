@@ -97,7 +97,7 @@ export default function Home() {
             <HomeButton
               component={Link}
               to="./card3"
-              releaseDate="2024-06-18"
+              releaseDate="2024-06-19"
             />
             <br />
             <Typography
@@ -106,38 +106,7 @@ export default function Home() {
               fontSize={15}
               fontWeight={900}
             >
-              19-06-2024
-            </Typography>
-          </Tooltip>
-        </Box>
-        <Box>
-          <Tooltip
-            title="Acesso a próxima fase"
-            placement="bottom"
-            TransitionComponent={Zoom}
-            className="marioSquare"
-          >
-            <Typography
-              id="faseText"
-              color="#fff"
-              fontSize={20}
-              fontWeight={900}
-            >
-              4ª FASE
-            </Typography>
-            <HomeButton
-              component={Link}
-              to="./card4"
-              releaseDate="2024-06-21"
-            />
-            <br />
-            <Typography
-              id="faseText"
-              color="#fff"
-              fontSize={15}
-              fontWeight={900}
-            >
-              22-06-2024
+              20-06-2024
             </Typography>
           </Tooltip>
         </Box>

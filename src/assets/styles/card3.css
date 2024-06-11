@@ -1,0 +1,11 @@
+.backpageButton {
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    margin: 10px !important;
+  }
+  
+  .backpageButton a {
+    text-decoration: none;
+    color: #fff !important;
+  }

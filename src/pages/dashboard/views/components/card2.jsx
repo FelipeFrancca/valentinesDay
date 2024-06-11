@@ -3,14 +3,14 @@ import VanillaTilt from "vanilla-tilt";
 import "./cardStyles.css";
 import { Box, Button, Typography } from "@mui/material";
 import Swal from "sweetalert2";
-import imgsrc from "../../../../assets/images/sushi.jpg";
+import imgsrc from "../../../../assets/images/breakfast.jpg";
 
 const TiltBox = ({ name, imgSrc, imgAlt }) => {
   const tiltRef = useRef(null);
   const handleVoteClick = (event) => {
     event.preventDefault();
     Swal.fire(
-      "Uhuuul! Espero que esteja com fome, porquê você ganhou uma noite especial para comer um nhami-nhami gotoso de sushi 🍣 com seu mozão"
+      "E que tal um cafézinho damanhã que não precisa ter o trabalho de fazer!? Pegue seu Lilipe e vão comer!"
     );
   };
 
@@ -42,7 +42,7 @@ const App = () => {
       </Button>
       <Box className="container containerCardPresente">
         <TiltBox
-          name="Noite do Sushi"
+          name="Café da manhã fora de casa"
           imgSrc={imgsrc}
           imgAlt="Image não encontrada"
         />
