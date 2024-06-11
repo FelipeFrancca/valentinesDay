@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/valentinesDay/static/css/main.574615b3.css",
-    "main.js": "/valentinesDay/static/js/main.9cab33c2.js",
+    "main.js": "/valentinesDay/static/js/main.cf7ee19c.js",
     "static/js/453.72563d4c.chunk.js": "/valentinesDay/static/js/453.72563d4c.chunk.js",
     "static/media/marioSquareImage.png": "/valentinesDay/static/media/marioSquareImage.8a1e63eff2a00efedc6d.png",
     "static/media/marioSquareImage2.png": "/valentinesDay/static/media/marioSquareImage2.43049e10a1c63fa022af.png",
     "static/media/sushi.jpg": "/valentinesDay/static/media/sushi.5b04b3d765a720bc77f2.jpg",
     "static/media/logo.png": "/valentinesDay/static/media/logo.e7f4aa5a5b20ae802053.png",
+    "static/media/breakfast.jpg": "/valentinesDay/static/media/breakfast.2d95334b25984c6393d1.jpg",
     "static/media/background.gif": "/valentinesDay/static/media/background.ebef96aaa3819894cef4.gif",
+    "static/media/movieTheater.png": "/valentinesDay/static/media/movieTheater.87280241cad231fdeb4f.png",
     "static/media/roboto-latin-500-normal.woff2": "/valentinesDay/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/valentinesDay/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/valentinesDay/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -66,11 +68,11 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/valentinesDay/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/valentinesDay/index.html",
     "main.574615b3.css.map": "/valentinesDay/static/css/main.574615b3.css.map",
-    "main.9cab33c2.js.map": "/valentinesDay/static/js/main.9cab33c2.js.map",
+    "main.cf7ee19c.js.map": "/valentinesDay/static/js/main.cf7ee19c.js.map",
     "453.72563d4c.chunk.js.map": "/valentinesDay/static/js/453.72563d4c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.574615b3.css",
-    "static/js/main.9cab33c2.js"
+    "static/js/main.cf7ee19c.js"
   ]
 }
